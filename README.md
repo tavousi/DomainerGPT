@@ -56,7 +56,8 @@ A robust pipeline to clean and filter the raw web data:
    ```bash
    pip install -r requirements.txt
 
-   ---
+---
+
 A. Prepare Data: Run the scripts in the DATA_prep folder to generate input.txt.
 
 B. Train the Model: Run microGPT_SITES.py.
@@ -64,5 +65,6 @@ B. Train the Model: Run microGPT_SITES.py.
 C. Generate & Check: generate_domains.py
 
 D: Score Premium Domains: score_domains.py
+
 ---
    🤝 Credits & AcknowledgementsMy work on this project is fundamentally based on two incredible repositories, which I have heavily utilized and modified to create this specialized domain-generation pipeline:Andrej Karpathy's microgpt: The core algorithmic inspiration comes from Andrej Karpathy's original microgpt, which trains and runs a GPT in 243 lines of pure, dependency-free Python. You can find his foundational code here: karpathy/microgpt gist.  chanjoongx's microgpt-efficiency: To optimize the training process without relying on heavy frameworks like PyTorch, I heavily relied upon the microgpt-efficiency repository by chanjoongx.  This project explores the cost of computational efficiency by implementing the algorithm across different backends.  I specifically adapted their numpy backend, which replaces the scalar computation graph with vectorized matrix operations and hand-derived manual backward passes.  According to their benchmarks, utilizing this NumPy backend achieves a speedup of roughly 250× over the standard scalar implementation.  You can find their repository and benchmark details here: chanjoongx/microgpt-efficiency.
