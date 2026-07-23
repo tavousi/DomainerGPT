@@ -14,7 +14,6 @@ This project utilizes a custom-trained character-level language model to generat
 | cattoprone.com | 145 | pro, top |
 | aakjo.com | 145 | - |
 | promix.com | 145 | pro |
-| idam.com | 145 | - |
 | donak.com | 145 | - |
 | hiver.com | 145 | - |
 | yangames.com | 140 | game |
