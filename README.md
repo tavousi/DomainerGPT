@@ -1,17 +1,43 @@
 MicroGPT Domain Name Generator 🚀
 An AI-powered, end-to-end pipeline for generating, verifying, and scoring premium, brandable domain names using a lightweight Transformer architecture.
 
-📖 Overview
+#📖 Overview
 This project utilizes a custom-trained character-level language model to generate highly brandable and phonetically appealing domain names. Instead of randomly combining letters, the neural network learns the latent structures, morphemes, and syllables of the most successful websites on the internet. It then generates novel, unregistered domains and evaluates them based on commercial value, length, and pronounceability.
 
-🙏 Acknowledgments & Credits
+# Domain addresses predicted for the future by *DomainerGPT*
+
+| Domain | Score | Keywords |
+|--------|:-----:|----------|
+| vitago.com | 155 | go |
+| hairdi.com | 155 | hair diet  |
+| webhost.com | 150 | host, web |
+| cattoprone.com | 145 | pro, top |
+| aakjo.com | 145 | - |
+| promix.com | 145 | pro |
+| idam.com | 145 | - |
+| donak.com | 145 | - |
+| hiver.com | 145 | - |
+| yangames.com | 140 | game |
+| goyours.com | 140 | go |
+| tentain.com | 140 | - |
+| actadata.com | 140 | data |
+| siaspay.com | 140 | pay |
+| honogame.com | 140 | game |
+| jatecnow.com | 140 | now |
+| payemcom.com | 140 | pay |
+| quinhost.com | 140 | host |
+| dailyur.com | 140 | host |
+| kadaapp.com | 140 | app |
+| easystem.com | 140 | sys |
+
+#🙏 Acknowledgments & Credits
 This project stands on the shoulders of giants. I would like to explicitly acknowledge:
 
-Andrej Karpathy: The core neural network architecture is based on his phenomenal microgpt (and makemore/nanoGPT) educational repositories.
+Andrej  @karpathy: The core neural network architecture is based on his phenomenal microgpt (https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95) educational repositories.
 
-GitHub Community Optimizations: I utilized a high-speed NumPy backend modification proposed by the GitHub community, which significantly accelerates local CPU training and inference without the overhead of heavy deep learning frameworks.
+GitHub Community Optimizations: I utilized a high-speed NumPy backend modification proposed by @chanjoongx (https://github.com/chanjoongx/microgpt-efficiency), which significantly accelerates local CPU training and inference without the overhead of heavy deep learning frameworks.
 
-📊 Dataset
+#📊 Dataset
 The model was trained on the Tranco List, a research-oriented top 1 Million websites dataset.
 Before training, the dataset underwent a rigorous cleaning process (removing subdomains, TLDs, invalid characters, and noise) to ensure the model focuses purely on the core brandable strings. The final cleaned dataset provided a rich vocabulary of successful digital brand names.
 
@@ -48,5 +74,3 @@ Availability: Generated 1000 novel .com domains, with an impressive ~60% availab
 
 Quality: Successfully discovered highly valuable, short (4-5 letter) and keyword-rich domains that are ready for registration and branding.
 
-🛠️ Usage
-(You can add your specific installation instructions and command-line usage here, for example:)
