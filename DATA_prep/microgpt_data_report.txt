@@ -1,0 +1,52 @@
+microGPT Training Data Preparation Report
+================================================
+
+Filtering policy:
+- character_count بین 4 و 20
+- فقط a-z
+- بدون عدد
+- بدون -
+- حذف موارد تکراری
+
+Row processing summary:
+- total_rows: 393,458
+- missing_name: 0
+- invalid_length: 10,783
+- invalid_charset: 75,360
+- duplicates_removed: 0
+- kept_rows: 307,315
+
+Final dataset statistics:
+- count: 307,315
+- min_length: 4
+- max_length: 20
+- mean_length: 10.6066
+- median_length: 10.0000
+- variance_population: 13.6315
+- std_population: 3.6921
+
+Length distribution:
+- 4: 5,099
+- 5: 12,656
+- 6: 22,962
+- 7: 28,304
+- 8: 32,195
+- 9: 32,417
+- 10: 31,364
+- 11: 27,715
+- 12: 24,577
+- 13: 21,109
+- 14: 17,852
+- 15: 14,905
+- 16: 11,934
+- 17: 9,229
+- 18: 6,803
+- 19: 4,838
+- 20: 3,356
+
+microGPT requirements:
+- input_format: one domain per line in input.txt
+- allowed_charset: a-z only
+- minimum_block_size_for_max_len_22: 23
+- recommended_block_size: 32
+- reason: tokens are [BOS] + chars + [BOS]

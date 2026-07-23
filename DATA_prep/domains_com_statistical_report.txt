@@ -1,0 +1,63 @@
+گزارش آماری طول نام دامنه‌های .com
+==================================================
+تعداد کل دامنه‌ها: 393,458
+حداقل طول: 6
+حداکثر طول: 66
+میانگین: 14.6946
+میانه: 14.0000
+واریانس: 17.0624
+انحراف معیار: 4.1307
+نما (Mode): 12
+چارک اول Q1: 12.0000
+چارک سوم Q3: 17.0000
+صدک 10: 10.0000
+صدک 90: 20.0000
+صدک 95: 22.0000
+
+فراوانی طول‌ها
+--------------------------------------------------
+character_count =  6 | count =      349 | percent =   0.09%
+character_count =  7 | count =    2,408 | percent =   0.61%
+character_count =  8 | count =    6,993 | percent =   1.78%
+character_count =  9 | count =   17,344 | percent =   4.41%
+character_count = 10 | count =   31,264 | percent =   7.95%
+character_count = 11 | count =   35,940 | percent =   9.13%
+character_count = 12 | count =   40,108 | percent =  10.19%
+character_count = 13 | count =   39,701 | percent =  10.09%
+character_count = 14 | count =   38,151 | percent =   9.70%
+character_count = 15 | count =   33,928 | percent =   8.62%
+character_count = 16 | count =   30,126 | percent =   7.66%
+character_count = 17 | count =   25,984 | percent =   6.60%
+character_count = 18 | count =   21,842 | percent =   5.55%
+character_count = 19 | count =   17,964 | percent =   4.57%
+character_count = 20 | count =   14,578 | percent =   3.71%
+character_count = 21 | count =   10,957 | percent =   2.78%
+character_count = 22 | count =    8,055 | percent =   2.05%
+character_count = 23 | count =    5,718 | percent =   1.45%
+character_count = 24 | count =    4,023 | percent =   1.02%
+character_count = 25 | count =    2,605 | percent =   0.66%
+character_count = 26 | count =    1,831 | percent =   0.47%
+character_count = 27 | count =    1,190 | percent =   0.30%
+character_count = 28 | count =      798 | percent =   0.20%
+character_count = 29 | count =      517 | percent =   0.13%
+character_count = 30 | count =      374 | percent =   0.10%
+character_count = 31 | count =      233 | percent =   0.06%
+character_count = 32 | count =      134 | percent =   0.03%
+character_count = 33 | count =      111 | percent =   0.03%
+character_count = 34 | count =       54 | percent =   0.01%
+character_count = 35 | count =       55 | percent =   0.01%
+character_count = 36 | count =       46 | percent =   0.01%
+character_count = 37 | count =       14 | percent =   0.00%
+character_count = 38 | count =       17 | percent =   0.00%
+character_count = 39 | count =       13 | percent =   0.00%
+character_count = 40 | count =       13 | percent =   0.00%
+character_count = 41 | count =        2 | percent =   0.00%
+character_count = 42 | count =        2 | percent =   0.00%
+character_count = 44 | count =        3 | percent =   0.00%
+character_count = 45 | count =        4 | percent =   0.00%
+character_count = 47 | count =        2 | percent =   0.00%
+character_count = 49 | count =        2 | percent =   0.00%
+character_count = 50 | count =        1 | percent =   0.00%
+character_count = 51 | count =        1 | percent =   0.00%
+character_count = 53 | count =        2 | percent =   0.00%
+character_count = 66 | count =        1 | percent =   0.00%

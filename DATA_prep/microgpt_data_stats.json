@@ -1,0 +1,45 @@
+{
+  "filtering_summary": {
+    "total_rows": 393458,
+    "missing_name": 0,
+    "invalid_length": 10783,
+    "invalid_charset": 75360,
+    "duplicates_removed": 0,
+    "kept_rows": 307315
+  },
+  "dataset_statistics": {
+    "count": 307315,
+    "min_length": 4,
+    "max_length": 20,
+    "mean_length": 10.606612108097554,
+    "median_length": 10,
+    "variance_population": 13.631549921729645,
+    "std_population": 3.6920928918067113,
+    "length_distribution": {
+      "4": 5099,
+      "5": 12656,
+      "6": 22962,
+      "7": 28304,
+      "8": 32195,
+      "9": 32417,
+      "10": 31364,
+      "11": 27715,
+      "12": 24577,
+      "13": 21109,
+      "14": 17852,
+      "15": 14905,
+      "16": 11934,
+      "17": 9229,
+      "18": 6803,
+      "19": 4838,
+      "20": 3356
+    },
+    "microgpt_requirements": {
+      "input_format": "one domain per line in input.txt",
+      "allowed_charset": "a-z only",
+      "recommended_block_size": 32,
+      "minimum_block_size_for_max_len_22": 23,
+      "reason": "tokens are [BOS] + chars + [BOS]"
+    }
+  }
+}
