@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-benchmark.py — Optimized for Dataset #2, Numpy Only, with Batching and Caching.
+Optimized for Dataset #2, Numpy Only, with Batching and Caching.
+@tavousi
 """
 
 import argparse
